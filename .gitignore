@@ -1,0 +1,4 @@
+# python compile file
+*.pyc
+.DS_Store
+smac_t/smac3-output_*
