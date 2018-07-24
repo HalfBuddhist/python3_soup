@@ -1,4 +1,4 @@
-# python compile file
+.*
+common_proto
 *.pyc
-.DS_Store
 smac_t/smac3-output_*
