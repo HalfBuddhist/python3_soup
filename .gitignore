@@ -2,3 +2,5 @@
 common_proto
 *.pyc
 smac_t/smac3-output_*
+.idea
+free_test*
