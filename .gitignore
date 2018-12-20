@@ -1,4 +1,10 @@
 .*
-common_proto
 *.pyc
-smac_t/smac3-output_*
+free_test*.py
+smac_t
+*.pk
+*.txt
+t.json
+*.log.*
+*.log
+z_temp

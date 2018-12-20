@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<!-- template for the err alert in phoenix pro -->
+<head>
+    <meta charset="UTF-8">
+    <title>Error Alert</title>
+    <style type="text/css" media="screen">
+        body {
+            font-family: verdana, arial, helvetica, sans-serif;
+            font-size: 80%;
+        }
+
+        table {
+            font-size: 100%;
+        }
+
+        /* -- heading ---------------------------------------------------------------------- */
+        h1 {
+            font-size: 16pt;
+            color: gray;
+        }
+
+        h1 u {
+            color: orange;
+        }
+
+        .heading {
+            margin-top: 0ex;
+            margin-bottom: 1ex;
+        }
+
+        .heading .attribute {
+            margin-top: 1ex;
+            margin-bottom: 0;
+        }
+
+        .heading .description {
+            margin-top: 4ex;
+            margin-bottom: 6ex;
+        }
+
+        a.popup_link:hover {
+            color: red;
+        }
+
+        #result_table {
+            width: 80%;
+            border-collapse: collapse;
+            border: 1px solid #777;
+        }
+
+        #result_table td {
+            border: 1px solid #777;
+            padding: 2px;
+        }
+
+        .dockey {
+            background-color: darkgrey;
+            width: 20%;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="heading">
+
+    <h1>Found <u>72</u> errors.</h1>
+
+    <p class="attribute"><strong>Start Time:</strong> 2018-05-30 15:24:25</p>
+    <p class="attribute"><strong>End &nbsp; Time:</strong> 0:00:00.000255</p>
+    <p class="description">Sorted in descending order of timestamp.</p>
+</div>
+
+<table id="result_table">
+    <tr>
+        <td class="dockey" colspan="2" style="text-align: center">
+            Error 1
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Logger
+        </td>
+        <td>
+            train-worker-2
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Role
+        </td>
+        <td>
+            train worker
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            IP (or Host)
+        </td>
+        <td>
+            10.18.119.10
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Date & Time
+        </td>
+        <td>
+            2018-10-16 16:30:27
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Model ID (or Task ID)
+        </td>
+        <td>
+            train##study##hyper_train#NAME_SKLEARN#NAME_LR#TYPE_LR##6899f552-d11d-11e8-aa9c-f8bc12a1071b##trail##bb83ab0a-d11d-11e8-aa9c-f8bc12a1071b
+        </td>
+    </tr>
+
+    <tr>
+        <td class="dockey">
+            Error String
+        </td>
+        <td>
+            Solver sag supports only l2 penalties, got l1 penalty.
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Location
+        </td>
+        <td>
+            train_helper.py(142)
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Document ID (_id field)
+        </td>
+        <td>
+            7Sda7WYBZ2Fjo06JvFUg
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey"> Kibana Naive URL
+        </td>
+        <td>
+            <a target="_blank"
+               href="http://kibana.phoenix.com/app/kibana#/discover/f4784590-d1ec-11e8-9b4b-2d5647a6060b?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fy,mode:quick,to:now%2Fy))&_a=(columns:!(clientip,beat.hostname,fields.role,logger,loglevel,request,response,info,status,cost,id,filename,lineno),filters:!(),index:'0220e820-e267-11e8-a015-8397fbfb7920',interval:auto,query:(language:lucene,query:'_id:7Sda7WYBZ2Fjo06JvFUg'))">
+                Click Here
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Kibana URL with Customized Search
+        </td>
+        <td>
+            <a target="_blank"
+               href="http://kibana.phoenix.com/app/kibana#/discover/f4784590-d1ec-11e8-9b4b-2d5647a6060b?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fy,mode:quick,to:now%2Fy))&_a=(columns:!(clientip,beat.hostname,fields.role,logger,loglevel,request,response,info,status,cost,id,filename,lineno),filters:!(),index:'0220e820-e267-11e8-a015-8397fbfb7920',interval:auto,query:(language:lucene,query:'_id:7Sda7WYBZ2Fjo06JvFUg'))">
+                Click Here
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="dockey">
+            Log Message
+        </td>
+        <td>
+            10.18.119.10&nbsp--&nbsp[2018-10-16&nbsp16:30:27]&nbsp[train-worker-2]&nbsp[train_helper.py(142)]&nbsp[ERROR]&nbsp##&nbspstatus=train_fail
+            id=train##study##hyper_train#NAME_SKLEARN#NAME_LR#TYPE_LR##6899f552-d11d-11e8-aa9c-f8bc12a1071b##trail##bb83ab0a-d11d-11e8-aa9c-f8bc12a1071b
+            cost=0.4776
+            err=Solver&nbspsag&nbspsupports&nbsponly&nbspl2&nbsppenalties,&nbspgot&nbspl1&nbsppenalty.
+            trace=Traceback&nbsp(most&nbsprecent&nbspcall&nbsplast):<br/>
+            &nbspFile&nbsp"/home/liuqw/workspace/phoenix/engine/worker/train/train_helper.py",&nbspline&nbsp125,&nbspin&nbspdo_train_job<br/>
+            &nbsp&nbsp&nbsptrain_loop_result,&nbspsplit_plan.round_id)<br/>
+            &nbspFile&nbsp"/home/liuqw/workspace/phoenix/engine/worker/train/train_helper.py",&nbspline&nbsp233,&nbspin&nbsp__do_train_loop<br/>
+            &nbsp&nbsp&nbsptrain_loss&nbsp=&nbsptrain_controller.send(TrainControlCommand.DO_TRAIN)<br/>
+            &nbspFile&nbsp"/home/liuqw/workspace/phoenix/trainer/sklearn/sklearn_trainer.py",&nbspline&nbsp72,&nbspin&nbsptrain<br/>
+            &nbsp&nbsp&nbspself._datasets.label_category)<br/>
+            &nbspFile&nbsp"/home/liuqw/workspace/phoenix/model/sk_model_helper.py",&nbspline&nbsp159,&nbspin&nbsptrain<br/>
+            &nbsp&nbsp&nbspself._model.fit(dataset.features,&nbspdataset.target)<br/>
+            &nbspFile&nbsp"/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/site-packages/sklearn/linear_model/logistic.py",&nbspline&nbsp1222,&nbspin&nbspfit<br/>
+            &nbsp&nbsp&nbspself.dual)<br/>
+            &nbspFile&nbsp"/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/site-packages/sklearn/linear_model/logistic.py",&nbspline&nbsp443,&nbspin&nbsp_check_solver_option<br/>
+            &nbsp&nbsp&nbsp"got&nbsp%s&nbsppenalty."&nbsp%&nbsp(solver,&nbsppenalty))<br/>
+            ValueError:&nbspSolver&nbspsag&nbspsupports&nbsponly&nbspl2&nbsppenalties,&nbspgot&nbspl1&nbsppenalty.
+        </td>
+    </tr>
+</table>
+</body>
+</html>

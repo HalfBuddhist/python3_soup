@@ -15,7 +15,7 @@ def f(args):
     x, y = args
     return x**2 + y**2
 
-best = fmin(f, space, algo=rand.suggest, max_evals=100)
+best = fmin(f, space, algo=tpe.suggest, max_evals=50)
 
 print("random: {}".format(best))
 
