@@ -1,6 +1,5 @@
 .*
 *.pyc
-<<<<<<< HEAD
 free_test*.py
 smac_t
 *.pk
@@ -11,3 +10,4 @@ t.json
 z_temp
 smac_t/smac3-output_*
 free_test*
+*.pkl
