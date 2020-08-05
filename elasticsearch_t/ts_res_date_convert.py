@@ -6,12 +6,12 @@
 #
 # Author: liuqw <liuqingwei@chuangxin.com>
 # Date:   2018/11/7
-"""ES 中使用dsl 进行查询的例子。
+"""ES 中日期返回的还是如『2019-02-25T10:25:54.815Z』这种格式的字符串。
 """
 
 from elasticsearch import Elasticsearch
 
-es_client = Elasticsearch("10.147.20.146:9200")
+es_client = Elasticsearch("ubuntu-qz:9200")
 
 dsl1 = {
     "query": {
@@ -26,37 +26,31 @@ dsl2 = {
 }
 
 dsl = {
+    "size": 1,
     "query": {
         "match_all": {}
     }
 }
 
 dsl3 = {
-    "size": 500,
-    "sort": [
-        {
-            "@timestamp": {
-                "order": "desc",
-                "unmapped_type": "boolean"
-            }
-        }
-    ],
+    "size": 1,
     "query": {
         "bool": {
             "must": [
                 {
-                    "query_string": {
-                        "query": "loglevel: ERROR",
-                        "analyze_wildcard": True,
-                        "default_field": "*"
+                    "aggs": {
+                        "request_ids": {
+                            "terms": {"field": "request_ids"}
+                        }
                     }
                 },
                 {
                     "range": {
                         "@timestamp": {
-                            "gte": 1541260800000,
-                            "lte": 1541865599999,
-                            "format": "epoch_millis"
+                            'gte': '2018-11-19 18:50:10.728',
+                            'lte': '2018-11-19 18:53:10.728',
+                            'format': 'yyyy-MM-dd HH:mm:ss.SSS',
+                            "time_zone": "+08:00"
                         }
                     }
                 }
@@ -68,6 +62,8 @@ dsl3 = {
     }
 }
 
-res = es_client.search(index="orion-phoenix-*", body=dsl3)
+res = es_client.search(index="orion-phoenix-train_worker-2019.02.25", body=dsl)
 print(len(res))
 print(res)
+a = res['hits']['hits'][0]['_source']['@timestamp']
+print(a, type(a))

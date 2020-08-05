@@ -1,0 +1,3532 @@
+{
+	"control_interval": {
+		"cow_circuit": [{
+				"name": "#1",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			},
+			{
+				"name": "#2",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			},
+			{
+				"name": "#3",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			},
+			{
+				"name": "#4",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			},
+			{
+				"name": "#5",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			},
+			{
+				"name": "#6",
+				"values": {
+					"f_fan": 5,
+					"f_cow_pump": 5
+				}
+			}
+		],
+		"chiller": [{
+				"name": "#1",
+				"values": {
+					"t_chw_out": 5
+				}
+			},
+			{
+				"name": "#2",
+				"values": {
+					"t_chw_out": 5
+				}
+			},
+			{
+				"name": "#3",
+				"values": {
+					"t_chw_out": 5
+				}
+			},
+			{
+				"name": "#4",
+				"values": {
+					"t_chw_out": 5
+				}
+			},
+			{
+				"name": "#5",
+				"values": {
+					"t_chw_out": 5
+				}
+			},
+			{
+				"name": "#6",
+				"values": {
+					"t_chw_out": 5
+				}
+			}
+		],
+		"chw_circuit": {
+			"1st_chw_circuit": [{
+					"name": "#1",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"f_chw_1st_pump": 5
+					}
+				}
+			],
+			"2nd_chw_circuit": [{
+					"name": "#1",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"f_chw_2nd_pump": 5
+					}
+				}
+			]
+		},
+		"air_condition": [{
+			"name": "201",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "202",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "301",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "302",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "401",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "402",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "403",
+			"AC": [{
+				"name": "#6",
+				"values": {
+					"fan_speed": 5,
+					"water_valve": 5,
+					"t_outlet_air": 5,
+					"t_return_air": 5
+				}
+			}, {
+				"name": "#7",
+				"values": {
+					"fan_speed": 5,
+					"water_valve": 5,
+					"t_outlet_air": 5,
+					"t_return_air": 5
+				}
+			}, {
+				"name": "#8",
+				"values": {
+					"fan_speed": 5,
+					"water_valve": 5,
+					"t_outlet_air": 5,
+					"t_return_air": 5
+				}
+			}, {
+				"name": "#9",
+				"values": {
+					"fan_speed": 5,
+					"water_valve": 5,
+					"t_outlet_air": 5,
+					"t_return_air": 5
+				}
+			}, {
+				"name": "#10",
+				"values": {
+					"fan_speed": 5,
+					"water_valve": 5,
+					"t_outlet_air": 5,
+					"t_return_air": 5
+				}
+			}]
+		}, {
+			"name": "501",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "402",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "601",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}, {
+			"name": "602",
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#3",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#4",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#5",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#6",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#7",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#8",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#9",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}, {
+					"name": "#10",
+					"values": {
+						"fan_speed": 5,
+						"water_valve": 5,
+						"t_outlet_air": 5,
+						"t_return_air": 5
+					}
+				}
+			]
+		}]
+	},
+	"cow_circuit": [{
+			"name": "#1",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		},
+		{
+			"name": "#2",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		},
+		{
+			"name": "#3",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		},
+		{
+			"name": "#4",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		},
+		{
+			"name": "#5",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		},
+		{
+			"name": "#6",
+			"values": {
+				"f_fan": [
+					30,
+					50
+				],
+				"f_cow_pump": [
+					30,
+					50
+				],
+				"t_cow_in": [
+					20,
+					30
+				]
+			}
+		}
+	],
+	"chiller": [{
+			"name": "#1",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		},
+		{
+			"name": "#2",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		},
+		{
+			"name": "#3",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		},
+		{
+			"name": "#4",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		},
+		{
+			"name": "#5",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		},
+		{
+			"name": "#6",
+			"values": {
+				"p_condenser": [
+					530.0,
+					900.0
+				],
+				"f_chiller": [
+					35.0,
+					100.0
+				]
+			}
+		}
+	],
+	"chw_circuit": {
+		"1st_chw_circuit": [{
+				"name": "#1",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			},
+			{
+				"name": "#2",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			},
+			{
+				"name": "#3",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			},
+			{
+				"name": "#4",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			},
+			{
+				"name": "#5",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			},
+			{
+				"name": "#6",
+				"values": {
+					"f_chw_1st_pump": [
+						25.0,
+						50.0
+					],
+					"t_chw_out": [
+						12.5,
+						14.5
+					]
+				}
+			}
+		],
+		"2nd_chw_circuit": [{
+				"name": "#1",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			},
+			{
+				"name": "#2",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			},
+			{
+				"name": "#3",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			},
+			{
+				"name": "#4",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			},
+			{
+				"name": "#5",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			},
+			{
+				"name": "#6",
+				"values": {
+					"f_chw_2nd_pump": [
+						25.0,
+						50.0
+					]
+				}
+			}
+		]
+	},
+	"air_condition": [{
+			"name": "201",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "202",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "301",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "302",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "401",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "402",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "403",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "501",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "502",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "601",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "602",
+			"to_control": true,
+			"SLA": [
+				18.0,
+				24.0
+			],
+			"AC": [{
+					"name": "#1",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#2",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#3",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#4",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#5",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#6",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#7",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#8",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#9",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				},
+				{
+					"name": "#10",
+					"values": {
+						"fan_speed": [
+							50,
+							90
+						],
+						"water_valve": [
+							50,
+							100
+						],
+						"t_outlet_air": [
+							18,
+							22
+						],
+						"t_return_air": [
+							18,
+							40
+						]
+					}
+				}
+			]
+		}
+	]
+}

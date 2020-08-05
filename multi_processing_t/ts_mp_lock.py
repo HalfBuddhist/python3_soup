@@ -10,18 +10,22 @@
 
 结论：
 1. 不使用锁会乱序，多进程变量如果在多个进程中被写的话，结果难以预知。
-2. 进程间不直接共享变量，可以认为传入的是一个深拷贝，不会动态随其它的进程的读写而变化。
+2. 进程间不直接共享变量，可以认为传入的是一个深拷贝，不会动态随其它的进程的读写而变化，
+    底层机制是copy-on-write。
 """
 
 import multiprocessing as mp
 import time
 
+
 class V(object):
     pass
+
 
 l = mp.Lock()  # 定义一个进程锁
 # v = V()
 # v.value = 0
+
 
 def job(v, num):
     l.acquire()  # 锁住
