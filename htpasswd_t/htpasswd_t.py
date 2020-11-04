@@ -8,6 +8,8 @@
 
 import htpasswd
 
+# mode: md5, crypt
+# crypt is 加盐加密， salt
 with htpasswd.Basic("/Users/administrator/workspace/pycharm/python3_soup/htpasswd_t/user.db", mode="md5") as userdb:
     try:
         userdb.add("admin", "admin123")
